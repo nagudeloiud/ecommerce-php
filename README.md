@@ -4,7 +4,7 @@ Aplicacion ecommerce Frameworks MVC
 
 Se decide por la opcion 1 para la Actividad 2.
 
-Pasos de la evidencia:
+Pasos de la evidencia: 
 
 . Instalacion Laragon:  
   E:\instalacion-laragon\laragon\www
