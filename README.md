@@ -97,8 +97,8 @@ INSERT INTO brands(id, name) values (7, 'Trek');
     
     
 . URLs de API:
-  . Ingreso de ordenes:    POST en formato JSON -- http://ecommerce-php-main.test/api/order
-  . Consulta de productos por email                http://ecommerce-php-main.test/api/order/{email}
+  . Ingreso de ordenes:    POST en formato JSON -- http://ecommerce-php.test/api/order
+  . Consulta de productos por email                http://ecommerce-php.test/api/order/{email}
 
 
 

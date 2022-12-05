@@ -11,7 +11,7 @@ class HomeController extends Controller
     const ADMIN_ROLE = 1;
     public function __construct()
     {
-        $this->middleware('auth');  
+        $this->middleware('auth');
     }
 
     /**

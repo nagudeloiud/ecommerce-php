@@ -11,7 +11,7 @@ use App\Models\User;
 class UserController extends Controller
 {
 
-    /*  
+    /*
     Client ID: 3
     Client secret: qCV3HTJTGWr1xVj2vocHmMWTojcc3VfAc9xU2Sxn
     */

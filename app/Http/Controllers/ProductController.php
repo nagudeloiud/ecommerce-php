@@ -10,7 +10,7 @@ use App\Models\Category;
 use App\Models\Seller;
 
 class ProductController extends Controller
-{  
+{
 
     public function __construct()
     {

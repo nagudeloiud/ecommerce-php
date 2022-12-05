@@ -7,15 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class OrderProduct extends Model
 {
-    public $timestamps = false;
-    protected $table = 'order_product';
+    protected $table = 'orders_products';
 
     protected $fillable = [
         'order_id',
         'product_id',
         'price',
         'quantity',
-    ];  
+    ];
 
     public function order() {
         return $this->belongsTo(Order::class);

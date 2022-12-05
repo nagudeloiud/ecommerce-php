@@ -11,7 +11,7 @@ class SellerController extends Controller
 
     public function __construct()
     {
-        $this->middleware(['auth', 'rol.admin.isValid']);  
+        $this->middleware(['auth', 'rol.admin.isValid']);
     }
 
     /**

@@ -7,17 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Order extends Model
 {
+    use HasFactory;
+
     public $timestamps = false;
-    protected $table = 'order';
 
     protected $fillable = [
-        'email',
-        
+        'email'
     ];
-  
-    public function products() {
-        return $this->hasMany(OrderProduct::class);
-    }
-
-    
 }
